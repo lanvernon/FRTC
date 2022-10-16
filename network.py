@@ -8,7 +8,7 @@ from collections import defaultdict
 
 from vehicle import Vehicle
 
-class Network:
+class Network: 
     """
     This class is exploited by the test_env
     """
