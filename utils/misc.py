@@ -1,7 +1,7 @@
 def calculate_ia_penalty(ia):
     """
     This function receives ia array and calculates the sum ia values based on timing slot.
-    :param ia:
+    :param ia: 
     :return:
     """
     sum_ia = 0
