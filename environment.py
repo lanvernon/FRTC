@@ -1,4 +1,4 @@
-from realness_bridge import RealNeSZmqBridge
+from realness_bridge import RealNeSZmqBridge 
 import numpy as np
 from numpy import linalg as LA
 import math
