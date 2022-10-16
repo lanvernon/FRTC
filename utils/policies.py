@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow as tf 
 
 class SoftmaxPolicy():
 	def __init__(self, nA, temperature=0.0001, episodes=10000):
