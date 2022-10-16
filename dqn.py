@@ -75,7 +75,7 @@ class DeepQNetwork(TFBaseModel):
         self.activation = self.network_param["activation"]
         self.train_ct = 0
 
-        # ======================= build network =======================
+        # ======================= build network ======================
         tf.reset_default_graph()
         # input place holder
         self.target = tf.placeholder(tf.float32, [None], name="target")
