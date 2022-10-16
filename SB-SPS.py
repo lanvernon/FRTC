@@ -24,7 +24,7 @@ class SemiPersistentScheduling:
     def choose_new_resource(self, selection_window):
         """
         Agent receives an averaged RSSI values from the simulator every time. Then, it just runs
-        the algorithm.
+        the algorithm
         :param sensing_window: averaged RSSI values, UE decides from this interval.
         :return: subframe index
         """
